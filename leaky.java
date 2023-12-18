@@ -21,7 +21,7 @@ public class leaky {
         for (i=0;i<nsec;i++) {
             packet[i]=(rand.nextInt(1000));
         }
-        System.out.println("Seconds packet recieved packet sent  packets left  packets dropped:");
+        System.out.println("Seconds  Packet recieved  Packet sent  Packets left  Packets dropped:");
         System.out.println("       ");
         for (i=0;i<nsec;i++) 
         {
@@ -49,3 +49,14 @@ public class leaky {
         }
     }
 }    
+
+//Output
+Enter the bucket size:
+10
+Enter the output rate:
+4
+Enter the number of seconds to simulate:
+10
+Seconds  |  Packet recieved   |  Packet sent   |  Packets left   |  Packets dropped
+    1            90                   4                6                 80
+    2            20                   4                6                 16
