@@ -40,12 +40,13 @@ public class leaky {
                 }
             }
             while(p_remain!=0){
-                if(p_remain>b_size){
+                if(p_remain>b_size)
+                {
                     drop=p_return-b_size;
-        }
-        mini=math.min(p-remain,o_rate);
-        System.out.println("   "+p_remain+"   "+drop);
-        drop=0;
+                }
+                mini=math.min(p-remain,o_rate);
+                System.out.println("   "+p_remain+"   "+drop);
+                drop=0;
         }
     }
 }    
