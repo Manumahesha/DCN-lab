@@ -1,7 +1,5 @@
 import java.util.*;
-
 public class crc {
-
     public static void main(String args[]) {
         Scanner s = new Scanner(System.in);
         int n;
@@ -31,7 +29,6 @@ public class crc {
             sent_data[i] = s.nextInt();
         receive(sent_data, divisor);
     }
-
     static int[] divide(int old_data[], int divisor[]) {
         int remainder[], i;
         int data[] = new int[old_data.length + divisor.length];
@@ -55,13 +52,11 @@ public class crc {
         }
         return remainder;
     }
-
     static int exor(int a, int b) {
         if (a == b)
             return 0;
         return 1;
     }
-
     static void receive(int data[], int divisor[]) {
         int remainder[] = divide(data, divisor);
         for (int i = 0; i < remainder.length; i++) {
@@ -73,6 +68,7 @@ public class crc {
         System.out.println("Data received without error.");
     }
 }
+
 *//output
   Enter the size of data:
   7
