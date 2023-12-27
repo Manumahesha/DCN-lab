@@ -1,6 +1,6 @@
 import java.io.*;
 import java.net.*;
-class prgm4b
+class udpcl
 {
   public static void main(String args[]) throws Exception
 {
