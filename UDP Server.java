@@ -1,6 +1,6 @@
 import java.io.*;
 import java.net.*;
-class prgm4a
+public class udpser
 {
 	public static void main (String args[])throws Exception
 	{
