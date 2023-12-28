@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.Random;
 import java.io.*;
 import java.lang.*;
-public class leaky {
+public class prgm2leaky {
     public static void main(String args[]) 
     {
         int drop=0,mini,i,o_rate,b_size,nsec,p_remain=0;
