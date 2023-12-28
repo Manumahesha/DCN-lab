@@ -1,6 +1,6 @@
 import java.net.*;
 import java.io.*;
-public class tcpser{
+public class prgm3atcpser{
     public static void main(String args[])throws Exception
 {
     ServerSocket sersock=new ServerSocket(4000);
