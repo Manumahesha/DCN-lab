@@ -1,6 +1,6 @@
 import java.net.*;
 import java.io.*;
-public class tcpcln{
+public class prgm3btcpcln{
     public static void main(String args[])throws Exception
 {
     Socket sock=new Socket("127.0.0.1",4000);
