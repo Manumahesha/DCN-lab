@@ -1,6 +1,6 @@
 import java.io.*;
 import java.net.*;
-public class udpcln
+public class prgm4budpcln
 {
   public static void main(String args[]) throws Exception
 {
