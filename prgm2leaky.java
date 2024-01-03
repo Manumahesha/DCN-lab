@@ -37,9 +37,7 @@ public static void main(String args[])
 		System.out.println("		");
 		drop=0;
 	}
-
 }
-
 	while(premain!=0)
 	{
 		if(premain>bsize){
